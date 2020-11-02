@@ -51,8 +51,11 @@ h3{
 nav{
     font-family: 'Cinzel', serif;
 }
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
     body {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    img {
+        display: block;
     }
 }
